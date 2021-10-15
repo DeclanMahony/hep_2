@@ -72,68 +72,6 @@ public:
    HitRange event_hits;
    HitRange Hits() {return event_hits;}
 
-   // DigitRange Digits(int det) {
-   //   auto ret = Digits();
-   //   while ( ret.b.getDetector() < det) { ret.b++; }
-   //   while ( ret.e.getDetector() > det) { ret.e--; }
-   //   return ret;
-   // }
-
-  // DigitRange Digits() {
-  //   DigitRange ret;
-  //   auto evrec = GetTriggerRecord();
-  //   ret.b = digits->begin() + evrec.getFirstEntry();
-  //   ret.e = ret.begin() + evrec.getNumberOfObjects();
-  //
-  //   // sort the digits for this event
-  //   std::stable_sort(ret.b,ret.e,DigitCompare);
-  //   return ret;
-  // }
-
-  // DigitRange Digits(int det, int row) {
-  //
-  //   // get a sorted list of digits
-  //   auto ret = Digits();
-  //
-  //   while(ret.b->getDetector() < det) {
-  //     ret.b++;
-  //   }
-  //
-  //   while(ret.b->getDetector() == det || ret.b->getRow() < row ) {
-  //     ret.b++;
-  //   }
-  //
-  //   for ( auto& c = ret.b; c != ret.e; c++ ) {
-  //     if c
-  //   }
-  //
-  //   while( ret.b->getDetector() == det ret.b->getRow() < row ) {ret.b++;}
-  //
-  //
-  //   // sort the digits for this event
-  //
-  //   return ret;
-  // }
-
-  // void bla()
-  // {
-  //
-  //   auto evrec = GetTriggerRecord();
-  //   auto b = digits->begin() + evrec.getFirstEntry();
-  //   auto e = b + evrec.getNumberOfObjects();
-  //
-  //   cout << evrec << endl;
-  //   // cout << b << endl;
-  //
-  //   // for (auto dig = b; dig != e; dig++) {
-  //   //   cout << (*dig) << endl;
-  //   // }
-  //
-  //   // auto d = Digits();
-  //   for (auto& dig : Digits()) {
-  //     cout << dig << endl;
-  //   }
-  // }
 
 protected:
   void ConnectMCHitsFile(std::string fname)
