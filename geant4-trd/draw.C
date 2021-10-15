@@ -30,6 +30,10 @@ void draw(std::string dirname="data/")
       for (auto& seq : dman.DigitsByPadRow()) {
 
         padrow->Reset();
+        padrow->SetStats(0);
+        padrow->GetXaxis()->SetRange(seq.begin()->getPadCol(),
+        (seq.end()-1)->getPadCol()+2);
+
 
         int det = seq.begin()->getDetector();
         int row = seq.begin()->getPadRow();
@@ -51,8 +55,10 @@ void draw(std::string dirname="data/")
         //p->Draw("colz");
         // p->Write();
 
+
         padrow->SetTitle(Form("Det %03d row %02d;pad;time bin",det,row));
         padrow->Draw("colz");
+        padrow->Draw("text,same");
 
 
         TMarker m;
