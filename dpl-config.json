@@ -1,0 +1,47 @@
+{
+    "internal-dpl-clock": "",
+    "SimReader": {
+        "interactionRate": "50000",
+        "bcPatternFile": "",
+        "simPrefixQED": "",
+        "qed-x-section-ratio": "-1",
+        "outcontext": "collisioncontext.root",
+        "incontext": "",
+        "ncollisions": "0",
+        "randomsample": "0",
+        "orbit-offset-enumeration": "0",
+        "orbit-multiplier-enumeration": "0",
+        "start-value-enumeration": "0",
+        "end-value-enumeration": "-1",
+        "step-value-enumeration": "1"
+    },
+    "TRDDigitizer": "",
+    "TRDDigitWriter": {
+        "outfile": "trddigits.root",
+        "output-dir": "none",
+        "treename": "o2sim",
+        "treetitle": "o2sim",
+        "nevents": "-1",
+        "autosave": "-1",
+        "terminate": "process",
+        "labels-branch-name": "TRDMCLabels"
+    },
+    "TRAP": {
+        "trd-trapconfig": "cf_pg-fpnp32_zs-s16-deh_tb30_trkl-b5n-fs1e24-ht200-qs0e24s24e23-pidlinear-pt100_ptrg.r5549",
+        "trd-onlinegaincorrection": "false",
+        "trd-onlinegaintable": "Krypton_2015-02",
+        "trd-dumptrapconfig": "false",
+        "trd-runnum": "297595"
+    },
+    "GRPUpdater": "",
+    "TRDTrkltWrt": {
+        "outfile": "trdtracklets.root",
+        "output-dir": "none",
+        "treename": "o2sim",
+        "treetitle": "o2sim",
+        "nevents": "-1",
+        "autosave": "-1",
+        "terminate": "process",
+        "TRKLABELS": "TRKLabels"
+    }
+}

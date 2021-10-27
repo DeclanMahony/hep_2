@@ -1,0 +1,1067 @@
+[INFO] BINDING TO ADDRESS ipc:///tmp/o2sim-worker-notifications-21116 type pub
+[INFO] Parsed primary server address ipc:///tmp/o2sim-primary-get-21116
+[INFO] Parsed primary server status address ipc:///tmp/o2sim-primserv-info-21116
+[INFO] Parsed merger address ipc:///tmp/o2sim-hitmerger-simdata-21116
+[INFO] Waiting for configuration answer 
+[INFO] Configuration answer received, containing 1032 bytes 
+[INFO] COMMUNICATED ENGINE TGeant3
+[10:15:53][INFO] Setting up the simulation ...
+[10:15:53][INFO] Is alien token present?: 0
+[10:15:54][INFO] Is alien token present?: 0
+[10:15:54][INFO] Initialized CCDB Manager at URL: ccdb-test.cern.ch:8080
+[10:15:54][INFO] Initialized CCDB Manager with timestamp : 1635322553055
+[10:15:54][INFO] RNG INITIAL SEED 2321428435
+[10:16:13][WARN] FairRun::SetOutputFile() deprecated. Use FairRootFileSink.
+[10:16:14][INFO] Media file used: /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Detectors/Geometry/media.geo
+[10:16:14][INFO] MagneticField::CreateField: Maximim possible beam energy for requested beam is assumed
+[10:16:14][INFO] MagneticField::Print: Maps:
+[10:16:14][INFO] MagneticField::Print: Solenoid (-1*)5 kG, Dipole ON (-1) 
+[10:16:14][INFO] MagneticField::Print: Machine B fields for p-p  beam (7000 GeV): QGrad: 22.0002 Dipole: 37.8781
+[10:16:14][INFO] MagneticField::Print: Uses Sol30_Dip6_Hole  of $(O2_ROOT)/share/Common/maps/mfchebKGI_sym.root
+[10:16:14][INFO] Activating ZDC module
+[10:16:14][INFO] Activating HALL module
+[10:16:14][INFO] Activating MAG module
+[10:16:14][INFO] Activating DIPO module
+[10:16:14][INFO] Activating COMP module
+[10:16:14][INFO] Activating PIPE module
+[10:16:14][INFO] Activating ABSO module
+[10:16:14][INFO] Activating SHIL module
+[10:16:14][INFO] Activating TOF module
+[10:16:14][INFO] Activating TOF module
+[10:16:14][INFO] Activating TRD module
+[10:16:14][INFO] Activating TPC module
+[10:16:14][INFO] Activating ITS module
+[10:16:14][INFO] L# 0 Phi:16.42 R:2.34 Nst:12 Nunit:9 W:1.5 Tilt:17.503 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[10:16:14][INFO] L# 1 Phi:12.18 R:3.15 Nst:16 Nunit:9 W:1.5 Tilt:17.9445 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[10:16:14][INFO] L# 2 Phi:9.55 R:3.93 Nst:20 Nunit:9 W:1.5 Tilt:16.9423 Lthick:0.005 Dthick:0.003 DetID:0 B:0
+[10:16:14][INFO] L# 3 Phi:7.5 R:19.6 Nst:24 Nunit:4 Lthick:0.01 Dthick:0.003 DetID:0 B:0
+[10:16:14][INFO] L# 4 Phi:6 R:24.55 Nst:30 Nunit:4 Lthick:0.01 Dthick:0.003 DetID:0 B:0
+[10:16:14][INFO] L# 5 Phi:4.29 R:34.39 Nst:42 Nunit:7 Lthick:0.01 Dthick:0.003 DetID:0 B:0
+[10:16:14][INFO] L# 6 Phi:3.75 R:39.34 Nst:48 Nunit:7 Lthick:0.01 Dthick:0.003 DetID:0 B:0
+[10:16:14][INFO] Activating MFT module
+[10:16:14][INFO] Activating MCH module
+[10:16:14][INFO] Activating MID module
+[10:16:14][INFO] Activating EMC module
+[10:16:14][INFO] o2::emcal::Geometry::GetInstanceFromRunNumber() - Initialized geometry with name <<EMCAL_COMPLETE12SMV1_DCAL_8SM>>
+[10:16:14][INFO] Activating PHS module
+[10:16:14][INFO] Activating CPV module
+[10:16:14][INFO] Activating FT0 module
+[10:16:14][INFO] Activating FV0 module
+[10:16:14][INFO] Activating FDD module
+[10:16:14][INFO] Activating HMP module
+[10:16:14][INFO] Activating ZDC module
+ Image initialized with 44 x 44 pixels  Image initialized with 56 x 30 pixels [10:16:14][INFO] O2RUNSIM SPECIFIC INIT CALLED
+[10:16:14][INFO] FairRootFileSink initialized.
+[10:16:14][INFO]  - cbmroot_0
+[10:16:14][INFO]     - o2sim_21122.root
+Info in <TGeoManager::TGeoManager>: Geometry FAIRGeom, FAIR geometry created
+[10:16:14][INFO] FairGeoMedia: Read media 
+[10:16:14][INFO] MagFieldContFact::createContainer: Creating mag.field container MagFieldParam
+[10:16:14][INFO] Loading simulation plugin libO2G3Setup
+[10:16:14][INFO] Setting up G3 sim from library code
+
+=============================================================
+ Geant3 Virtual Monte Carlo 
+ Version 3.7 ( 9 September 2020 )
+ WWW : https://vmc-project.github.io/
+=============================================================
+
+-I- G3Config: Geant3 with TGeo has been created.
+[10:16:14][INFO] Stack.storeSecondaries : true		[ CODE ]
+Stack.pruneKine : true		[ CODE ]
+Stack.transportPrimary : all		[ CODE ]
+Stack.transportPrimaryFileName : 		[ CODE ]
+Stack.transportPrimaryFuncName : 		[ CODE ]
+Stack.transportPrimaryInvert : false		[ CODE ]
+
+
+ *------------------------------------------------------------------------------------* 
+ |                                                                                    | 
+ |  *------------------------------------------------------------------------------*  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  |   PPP   Y   Y  TTTTT  H   H  III    A      Welcome to the Lund Monte Carlo!  |  | 
+ |  |   P  P   Y Y     T    H   H   I    A A     This is PYTHIA version 8.304      |  | 
+ |  |   PPP     Y      T    HHHHH   I   AAAAA    Last date of change:  9 Apr 2021  |  | 
+ |  |   P       Y      T    H   H   I   A   A                                      |  | 
+ |  |   P       Y      T    H   H  III  A   A    Now is 27 Oct 2021 at 10:16:15    |  | 
+ |  |                                                                              |  | 
+ |  |   Christian Bierlich;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: christian.bierlich@thep.lu.se                                   |  | 
+ |  |   Nishita Desai;  Department of Theoretical Physics, Tata Institute,         |  | 
+ |  |      Homi Bhabha Road, Mumbai 400005, India;                                 |  | 
+ |  |      e-mail: desai@theory.tifr.res.in                                        |  | 
+ |  |   Leif Gellersen;  Department of Astronomy and Theoretical Physics,          |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: leif.gellersen@thep.lu.se                                       |  | 
+ |  |   Ilkka Helenius;  Department of Physics, University of Jyvaskyla,           |  | 
+ |  |      P.O. Box 35, FI-40014 University of Jyvaskyla, Finland;                 |  | 
+ |  |      e-mail: ilkka.m.helenius@jyu.fi                                         |  | 
+ |  |   Philip Ilten;  Department of Physics,                                      |  | 
+ |  |      University of Cincinnati, Cincinnati, OH 45221, USA;                    |  | 
+ |  |      e-mail: philten@cern.ch                                                 |  | 
+ |  |   Leif Lonnblad;  Department of Astronomy and Theoretical Physics,           |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: leif.lonnblad@thep.lu.se                                        |  | 
+ |  |   Stephen Mrenna;  Computing Division, Simulations Group,                    |  | 
+ |  |      Fermi National Accelerator Laboratory, MS 234, Batavia, IL 60510, USA;  |  | 
+ |  |      e-mail: mrenna@fnal.gov                                                 |  | 
+ |  |   Stefan Prestel;  Department of Astronomy and Theoretical Physics,          |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: stefan.prestel@thep.lu.se                                       |  | 
+ |  |   Christian Preuss;  School of Physics and Astronomy,                        |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: christian.preuss@monash.edu                                     |  | 
+ |  |   Torbjorn Sjostrand;  Department of Astronomy and Theoretical Physics,      |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: torbjorn@thep.lu.se                                             |  | 
+ |  |   Peter Skands;  School of Physics and Astronomy,                            |  | 
+ |  |      Monash University, PO Box 27, 3800 Melbourne, Australia;                |  | 
+ |  |      e-mail: peter.skands@monash.edu                                         |  | 
+ |  |   Marius Utheim;  Department of Astronomy and Theoretical Physics,           |  | 
+ |  |      Lund University, Solvegatan 14A, SE-223 62 Lund, Sweden;                |  | 
+ |  |      e-mail: marius.utheim@thep.lu.se                                        |  | 
+ |  |   Rob Verheyen;  Department of Physics and Astronomy,                        |  | 
+ |  |      University College London, Gower St, Bloomsbury, London WC1E 6BT, UK;   |  | 
+ |  |      e-mail: r.verheyen@ucl.ac.uk                                            |  | 
+ |  |                                                                              |  | 
+ |  |   The main program reference is 'An Introduction to PYTHIA 8.2',             |  | 
+ |  |   T. Sjostrand et al, Comput. Phys. Commun. 191 (2015) 159                   |  | 
+ |  |   [arXiv:1410.3012 [hep-ph]]                                                 |  | 
+ |  |                                                                              |  | 
+ |  |   The main physics reference is the 'PYTHIA 6.4 Physics and Manual',         |  | 
+ |  |   T. Sjostrand, S. Mrenna and P. Skands, JHEP05 (2006) 026 [hep-ph/0603175]  |  | 
+ |  |                                                                              |  | 
+ |  |   An archive of program versions and documentation is found on the web:      |  | 
+ |  |   http://www.thep.lu.se/Pythia                                               |  | 
+ |  |                                                                              |  | 
+ |  |   This program is released under the GNU General Public Licence version 2.   |  | 
+ |  |   Please respect the MCnet Guidelines for Event Generator Authors and Users. |  | 
+ |  |                                                                              |  | 
+ |  |   Disclaimer: this program comes without any guarantees.                     |  | 
+ |  |   Beware of errors and use common sense when interpreting results.           |  | 
+ |  |                                                                              |  | 
+ |  |   Copyright (C) 2021 Torbjorn Sjostrand                                      |  | 
+ |  |                                                                              |  | 
+ |  |                                                                              |  | 
+ |  *------------------------------------------------------------------------------*  | 
+ |                                                                                    | 
+ *------------------------------------------------------------------------------------* 
+
+[10:16:15][INFO] Init 'DecayerPythia8' with following parameters
+[10:16:15][INFO] DecayerPythia8.config[0] : ${O2_ROOT}/share/Generators/pythia8/decays/base.cfg		[ CODE ]
+DecayerPythia8.config[1] : 		[ CODE ]
+DecayerPythia8.config[2] : 		[ CODE ]
+DecayerPythia8.config[3] : 		[ CODE ]
+DecayerPythia8.config[4] : 		[ CODE ]
+DecayerPythia8.config[5] : 		[ CODE ]
+DecayerPythia8.config[6] : 		[ CODE ]
+DecayerPythia8.config[7] : 		[ CODE ]
+DecayerPythia8.verbose : false		[ CODE ]
+DecayerPythia8.showChanged : false		[ CODE ]
+
+[10:16:15][INFO] Reading configuration from file: /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Generators/pythia8/decays/base.cfg
+
+ *-------  PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings (changes only)  ------------------* 
+ |                                                                                                                 | 
+ | Name                                          |                      Now |      Default         Min         Max | 
+ |                                               |                          |                                      | 
+ | Init:showChangedParticleData                  |                      off |           on                         | 
+ | ProcessLevel:all                              |                      off |           on                         | 
+ |                                                                                                                 | 
+ *-------  End PYTHIA Flag + Mode + Parm + Word + FVec + MVec + PVec + WVec Settings  -----------------------------* 
+[10:16:15][INFO] Setup global cuts and processes
+[10:16:15][INFO] Set default settings for processes and cuts.
+[10:16:15][INFO] Special process settings are enabled.
+[10:16:15][INFO] Special cut settings are enabled.
+[10:16:15][INFO] Printing 'SimUserDecay' parameters
+[10:16:15][INFO] SimUserDecay.pdglist : 		[ CODE ]
+
+[10:16:15][INFO] Initialising primary generator
+[10:16:15][INFO] Setting interaction diamond: position = {0,0,0} cm
+[10:16:15][INFO] Setting interaction diamond: width = {0,0,0} cm
+[10:16:15][INFO] Field in CAVE: 2
+[10:16:15][INFO] Setting up CAVE to host ZDC
+Info in <TGeoManager::SetTopVolume>: Top volume is cave. Master volume is cave
+Info in <TGeoNavigator::BuildCache>: --- Maximum geometry depth set to 100
+Error in <TGeoCompositeShape::MakeNode>: Expression has no boolean operation
+Error in <TGeoCompositeShape::ctor>: Composite halfFixationToPipe: cannot parse expression: pipeSupportTubeCarbon
+[10:16:15][INFO] Loaded TOF geometry
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+[10:16:16][INFO] GeometryBuilder::buildGeometry volume name = MFT
+Info in <Create>: Creating HeatExchanger_0_0
+Info in <Create>: ... done HeatExchanger_0_0
+Info in <Create>: Creating HeatExchanger_1_0
+Info in <Create>: ... done HeatExchanger_1_0
+Info in <Create>: Creating HeatExchanger_2_0
+Info in <Create>: ... done HeatExchanger_2_0
+Info in <Create>: Creating HeatExchanger_3_0
+Info in <Create>: ... done HeatExchanger_3_0
+Info in <Create>: Creating HeatExchanger_4_0
+Info in <Create>: ... done HeatExchanger_4_0
+Info in <Create>: Creating HeatExchanger_0_1
+Info in <Create>: ... done HeatExchanger_0_1
+Info in <Create>: Creating HeatExchanger_1_1
+Info in <Create>: ... done HeatExchanger_1_1
+Info in <Create>: Creating HeatExchanger_2_1
+Info in <Create>: ... done HeatExchanger_2_1
+Info in <Create>: Creating HeatExchanger_3_1
+Info in <Create>: ... done HeatExchanger_3_1
+Info in <Create>: Creating HeatExchanger_4_1
+Info in <Create>: ... done HeatExchanger_4_1
+Creating MFT heat exchanger for disk0 bottom
+Creating MFT heat exchanger for disk1 bottom
+Creating MFT heat exchanger for disk2 bottom
+Creating MFT heat exchanger for disk3 bottom
+Creating MFT heat exchanger for disk4 bottom
+Creating MFT heat exchanger for disk0 top
+Creating MFT heat exchanger for disk1 top
+Creating MFT heat exchanger for disk2 top
+Creating MFT heat exchanger for disk3 top
+Creating MFT heat exchanger for disk4 top
+[10:16:24][INFO] MC modeler <TGeant3TGeo>, Title <C++ Interface to Geant3>: Sampling 10.9, model fraction with respect to G3 1, final sampling 10.9
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+== Volume: 0TOP type TGeoVolume positioned 0 times
+*** Shape 0TOP: TGeoBBox ***
+    dX =     1.32400
+    dY =     1.32400
+    dZ =     1.00000
+    origin: x=    0.00000 y=    0.00000 z=    0.00000
+Mixture FT0_Radiator Optical glass$    Aeff=23.3286 Zeff=11.6385 rho=2.2 radlen=1.15446 intlen=4.47771 index=308
+   Element #0 : SI  Z= 14.00 A= 28.09 w= 0.606
+   Element #1 : O  Z=  8.00 A= 16.00 w= 0.394
+[10:16:25][INFO]  n 1 x -1.325 y -1.325
+[10:16:25][INFO]  n 2 x -1.325 y 1.3232
+[10:16:25][INFO]  n 3 x 1.3232 y -1.325
+[10:16:25][INFO]  n 4 x 1.3232 y 1.3232
+[10:16:25][INFO] FV0: Constructing geometry
+[10:16:25][INFO] FV0: Creating materials
+[10:16:25][INFO] FV0: createMaterials(): fieldType 2, maxField 15
+[10:16:25][INFO] FV0 geometry instance created
+[10:16:27][INFO] FV0: Building geometry. FV0 volume name is 'FV0'
+[10:16:27][INFO] Geometry::buildGeometry()::Volume name = FDD
+[10:16:27][INFO] Detector::CreateMaterials >>>>> magnetic field: type 2 max 15
+
+Info in <TGeoManager::CheckGeometry>: Fixing runtime shapes...
+Info in <TGeoManager::CloseGeometry>: Counting nodes...
+Info in <TGeoManager::Voxelize>: Voxelizing...
+Info in <TGeoManager::CloseGeometry>: Building cache...
+Info in <TGeoManager::CountLevels>: max level = 13, max placements = 735
+Info in <TGeoManager::CloseGeometry>: 5346579 nodes/ 27421 volume UID's in FAIR geometry
+Info in <TGeoManager::CloseGeometry>: ----------------modeler ready----------------
+[10:16:28][INFO] TGeometry will not be imported to VMC
+
+Warning in <TGeoManager::CloseGeometry>: geometry already closed
+[10:16:31][WARN] Alignable volumes are not yet defined for TPC
+[10:16:31][INFO] Add ITS alignable volumes
+[10:16:32][INFO] Add MCH alignable volumes
+[10:16:32][WARN] Alignable volumes are not yet defined for MID
+[10:16:32][WARN] Alignable volumes are not yet defined for EMC
+[10:16:32][INFO] Add FT0 alignable volumes
+[10:16:32][INFO] FT0A <-> /cave_1/barrel_1/FT0A_1
+[10:16:32][INFO] FT0C <-> /cave_1/barrel_1/FT0C_1
+[10:16:32][INFO] Add FV0 alignable volumes
+[10:16:32][INFO] FV0half_1 <-> /cave_1/barrel_1/FV0_1/FV0CONTAINER_1
+[10:16:32][INFO] FV0half_2 <-> /cave_1/barrel_1/FV0_1/FV0CONTAINER_2
+[10:16:32][WARN] Alignable volumes are not yet defined for FDD
+[10:16:32][WARN] Alignable volumes are not yet defined for HMP
+Info in <TGeoManager::Export>: Exporting FAIRGeom FAIR geometry as root file. Optimizations streamed.
+[10:16:34][INFO] Is alien token present?: 0
+[10:16:34][INFO] applying geometry alignment from http://ccdb-test.cern.ch:8080 for timestamp 1635322594409
+[10:16:36][INFO] skipping empty alignment for ITS
+[10:16:37][INFO] skipping empty alignment for TPC
+[10:16:37][INFO] skipping empty alignment for TRD
+[10:16:38][INFO] skipping empty alignment for TOF
+[10:16:38][INFO] skipping empty alignment for PHS
+[10:16:39][INFO] skipping empty alignment for CPV
+[10:16:40][INFO] skipping empty alignment for EMC
+[10:16:40][INFO] skipping empty alignment for HMP
+[10:16:41][INFO] skipping empty alignment for MFT
+[10:16:42][INFO] skipping empty alignment for MCH
+[10:16:42][INFO] skipping empty alignment for MID
+[10:16:43][INFO] skipping empty alignment for ZDC
+[10:16:44][INFO] skipping empty alignment for FT0
+[10:16:44][INFO] skipping empty alignment for FV0
+[10:16:45][INFO] skipping empty alignment for FDD
+[10:16:45][INFO]  file /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Detectors/FT0/files/quartzOptProperties.txt
+[10:16:45][INFO] Optical properties taken from the file: /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Detectors/FT0/files/quartzOptProperties.txt Number of lines read: 354
+Warning in <TGeant3TGeo::DefineOpSurface>: Called for surface surfRd. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetMaterialProperty>: Called for material surface  surfRd. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetMaterialProperty>: Called for material surface  surfRd. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetBorderSurface>: Called for border surface surMirrorBorder0. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetBorderSurface>: Called for border surface surMirrorBorder1. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetBorderSurface>: Called for border surface surMirrorBorder2. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetBorderSurface>: Called for border surface surMirrorBorder3. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::DefineOpSurface>: Called for surface surBlack. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetMaterialProperty>: Called for material surface  surBlack. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetBorderSurface>: Called for border surface surBlackBorder. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::DefineOpSurface>: Called for surface surFrontBWindow. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetMaterialProperty>: Called for material surface  surFrontBWindow. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetBorderSurface>: Called for border surface surBorderFrontBWindow. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::DefineOpSurface>: Called for surface surFrontWindow. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetMaterialProperty>: Called for material surface  surFrontWindow. Not applicable in Geant3 - setting is ignored.
+Warning in <TGeant3TGeo::SetBorderSurface>: Called for border surface surBorderFrontWindow. Not applicable in Geant3 - setting is ignored.
+[10:16:45][INFO]  file  open /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Detectors/FT0/files/Sim2DataChannels.txt
+[10:16:45][INFO] FairMCApplication::InitGeometry: 0
+[10:16:45][INFO] Setting special cuts for passive module HALL
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 15
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 15
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 15
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 15
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 15
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 15
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 15
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 35
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 35
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 35
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 35
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 37
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 37
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 37
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HALL 37
+[10:16:45][INFO] Setting special cuts for passive module MAG
+[10:16:45][INFO] Setting special cuts for passive module DIPO
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 10
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 30
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 17
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 17
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 17
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 17
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 17
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 17
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 17
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 37
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 37
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 37
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 37
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 57
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 57
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 57
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR DIPO 57
+[10:16:45][INFO] Setting special cuts for passive module COMP
+[10:16:45][INFO] Setting special cuts for passive module PIPE
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 20
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 40
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 21
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 41
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 42
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 23
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 43
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 24
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PIPE 44
+[10:16:45][INFO] Setting special cuts for passive module ABSO
+[10:16:45][INFO] Setting special cuts for passive module SHIL
+[10:16:45][INFO] Setting special cuts for passive module FRAME
+[10:16:45][INFO] Setting special cuts for TOF
+[10:16:45][WARN] File /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Detectors/TOF/simulation/data/simcuts.dat does not exist; Cannot apply cuts
+[10:16:45][INFO] Setting special cuts for TRD
+[10:16:45][INFO] Setting special cuts for TPC
+[10:16:45][INFO] Setting special cuts for ITS
+[10:16:45][INFO] Setting special cuts for MFT
+[10:16:45][INFO] MFT GeometryTGeo::Build total number of sensors 936
+[10:16:45][INFO] Setting special cuts for MCH
+[10:16:45][INFO] Setting special cuts for MID
+[10:16:45][INFO] Setting special cuts for EMC
+Adding supermodule type 0 for SM SMOD with volume ID 26817
+Adding supermodule type 2 for SM SM3rd with volume ID 26818
+Adding supermodule type 3 for SM DCSM with volume ID 26819
+Adding supermodule type 4 for SM DCEXT with volume ID 26820
+[10:16:46][INFO] Setting special cuts for PHS
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 0
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 2
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR PHOS 16
+[10:16:46][INFO] Setting special cuts for CPV
+[10:16:46][WARN] File /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Detectors/CPV/simulation/data/simcuts.dat does not exist; Cannot apply cuts
+[10:16:46][INFO] Setting special cuts for FT0
+[10:16:46][INFO] Setting special cuts for FV0
+[10:16:46][INFO] FV0: Initializing O2 detector. Adding sensitive volumes.
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLa0
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLb0
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLa1
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLb1
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLa2
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLb2
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLa3
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLb3
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLa4
+[10:16:46][INFO] FV0: Sensitive volume added: FV0SCINTCELLb4
+[10:16:46][INFO] Setting special cuts for FDD
+[10:16:46][WARN] File /alice/sw/slc7_x86-64/O2/nightly-20211014-local1/share/Detectors/FDD/simulation/data/simcuts.dat does not exist; Cannot apply cuts
+[10:16:46][INFO] Setting special cuts for HMP
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 3
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 3
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 3
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 3
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 3
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 3
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 4
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 4
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 4
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 4
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 4
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 4
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 5
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 6
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 7
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 7
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 7
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 7
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 7
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 7
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 8
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 8
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 8
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 8
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 8
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 8
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 9
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 9
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 9
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 9
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 9
+[10:16:46][WARN] SpecialCut: NO GLOBALINDEX FOUND FOR HMPID 9
+[10:16:46][INFO] Setting special cuts for ZDC
+[10:16:46][INFO] defining sensitive for ZDC
+[10:16:46][INFO] Simulation RunID: 1635322574
+[10:16:46][INFO] CREATING BRANCH CPVHit
+[10:16:46][INFO] Creating branch for CPVHit with address 0x18b7d758
+[10:16:46][INFO] CREATING BRANCH EMCHit
+[10:16:46][INFO] Creating branch for EMCHit with address 0x18b7a778
+[10:16:46][INFO] CREATING BRANCH FDDHit
+[10:16:46][INFO] Creating branch for FDDHit with address 0x18b7d900
+[10:16:46][INFO] CREATING BRANCH FT0Hit
+[10:16:46][INFO] Creating branch for FT0Hit with address 0x18bc6650
+[10:16:46][INFO] CREATING BRANCH FV0Hit
+[10:16:46][INFO] Creating branch for FV0Hit with address 0x18b7db40
+[10:16:46][INFO] CREATING BRANCH HMPHit
+[10:16:46][INFO] Creating branch for HMPHit with address 0x18b7de80
+[10:16:46][INFO] CREATING BRANCH ITSHit
+[10:16:46][INFO] Creating branch for ITSHit with address 0x18b79e18
+[10:16:46][INFO] CREATING BRANCH MCHHit
+[10:16:46][INFO] Creating branch for MCHHit with address 0x17df6a58
+[10:16:46][INFO] CREATING BRANCH MCTrack
+[10:16:46][INFO] Creating branch for MCTrack with address 0x17fbd480
+[10:16:46][INFO] CREATING BRANCH MFTHit
+[10:16:46][INFO] Creating branch for MFTHit with address 0x17e3dd08
+[10:16:46][INFO] CREATING BRANCH MIDHit
+[10:16:46][INFO] Creating branch for MIDHit with address 0x18b7a248
+[10:16:46][INFO] CREATING BRANCH PHSHit
+[10:16:46][INFO] Creating branch for PHSHit with address 0x18b7d548
+[10:16:46][INFO] CREATING BRANCH TOFHit
+[10:16:46][INFO] Creating branch for TOFHit with address 0x17df6a28
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector0
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector0 with address 0x18b79390
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector1
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector1 with address 0x18b79398
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector10
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector10 with address 0x18b793e0
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector11
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector11 with address 0x18b793e8
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector12
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector12 with address 0x18b793f0
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector13
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector13 with address 0x18b793f8
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector14
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector14 with address 0x18b79400
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector15
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector15 with address 0x18b79408
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector16
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector16 with address 0x18b79410
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector17
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector17 with address 0x18b79418
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector18
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector18 with address 0x18b79420
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector19
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector19 with address 0x18b79428
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector2
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector2 with address 0x18b793a0
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector20
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector20 with address 0x18b79430
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector21
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector21 with address 0x18b79438
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector22
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector22 with address 0x18b79440
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector23
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector23 with address 0x18b79448
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector24
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector24 with address 0x18b79450
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector25
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector25 with address 0x18b79458
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector26
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector26 with address 0x18b79460
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector27
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector27 with address 0x18b79468
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector28
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector28 with address 0x18b79470
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector29
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector29 with address 0x18b79478
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector3
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector3 with address 0x18b793a8
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector30
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector30 with address 0x18b79480
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector31
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector31 with address 0x18b79488
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector32
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector32 with address 0x18b79490
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector33
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector33 with address 0x18b79498
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector34
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector34 with address 0x18b794a0
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector35
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector35 with address 0x18b794a8
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector4
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector4 with address 0x18b793b0
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector5
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector5 with address 0x18b793b8
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector6
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector6 with address 0x18b793c0
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector7
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector7 with address 0x18b793c8
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector8
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector8 with address 0x18b793d0
+[10:16:46][INFO] CREATING BRANCH TPCHitsShiftedSector9
+[10:16:46][INFO] Creating branch for TPCHitsShiftedSector9 with address 0x18b793d8
+[10:16:46][INFO] CREATING BRANCH TRDHit
+[10:16:46][INFO] Creating branch for TRDHit with address 0x1367f2b0
+[10:16:46][INFO] CREATING BRANCH TrackRefs
+[10:16:46][INFO] Creating branch for TrackRefs with address 0x17fbd540
+[10:16:46][INFO] CREATING BRANCH ZDCHit
+[10:16:46][INFO] Creating branch for ZDCHit with address 0x18bc6fb8
+[10:16:47][INFO] Monte Carlo Engine Initialisation with: TGeant3TGeo
+Warning in <TBufferFile::WriteObjectAny>: since o2::trd::Geometry has no public constructor
+	which can be called without argument, objects of this class
+	can not be read with the current library. You will need to
+	add a default constructor before attempting to read it.
+[10:16:47][INFO] ***  FairBaseParSet written to ROOT file   version: 1
+[10:16:48][INFO] ***  FairGeoParSet written to ROOT file   version: 1
+[10:16:48][INFO] ***  MagFieldParam written to ROOT file   version: 1
+--------------------------------------------------------------------------------
+--------------  actual containers in runtime database  -------------------------
+FairBaseParSet                                 class for parameter io
+FairGeoParSet                                  class for Geo parameter
+MagFieldParam                                  Mag. Field Parameters
+--------------  runs, versions  ------------------------------------------------
+run id
+  container                                        1st-inp    2nd-inp    output
+run: 1635322574
+  FairBaseParSet                                1635322574         -1          1
+  FairGeoParSet                                 1635322574         -1          1
+  MagFieldParam                                         -1         -1          1
+--------------  input/output  --------------------------------------------------
+first input: none
+second input: none
+output:
+OBJ: FairParRootFile	o2sim_21122_par.root	 : 0 at: 0x335aa10
+Root file I/O o2sim_21122_par.root is open
+detector I/Os:  FairGenericParIo
+[10:16:48][INFO] Activating CTP module
+Run: 1635322574
+Fill:      0
+Period: 
+LHC State: 
+Start: Wed Oct 27 10:16:47 2021
+End  : Wed Oct 27 10:16:48 2021
+1st orbit: 0, 256 orbits per TF
+Beam0: Z:A =   0:  0, Energy = 0.000
+Beam1: Z:A =   0:  0, Energy = 0.000
+sqrt[s]    = 0.000
+crossing angle (radian) = 0.000000e+00
+magnet currents (A) L3 = 0.000, Dipole = 0
+Detectors: Cont.RO Triggers
+      ITS:    -       -    
+      TPC:    -       -    
+      TRD:    -       -    
+      TOF:    -       -    
+      PHS:    -       -    
+      CPV:    -       -    
+      EMC:    -       -    
+      HMP:    -       -    
+      MFT:    -       -    
+      MCH:    -       -    
+      MID:    -       -    
+      ZDC:    -       -    
+      FT0:    -       -    
+      FV0:    -       -    
+      FDD:    -       -    
+      ACO:    -       -    
+      CTP:    -       -    
+VMC: 0x18c64740
+[10:16:48][INFO] Init: Real time 34.7186 s, CPU time 24.29s
+[10:16:48][INFO] Init: Memory used 905.594 MB
+[10:16:48][INFO] MEM-STAMP END OF SIM INIT819.539 905.594 MB
+
+[10:16:48][INFO] Running with 6 sim workers 
+[10:16:48][INFO] CONNECTING TO ADDRESS ipc:///tmp/o2sim-workerinternal-21116 type push
+[10:16:48][STATE] Starting FairMQ state machine --> IDLE
+[10:16:48][INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[10:16:48][INFO] FOUND ID TO ATTACH 32790
+[10:16:48][INFO] TRYING ADDRESS 0x7fd14bfff000
+[10:16:48][INFO] SEGMENTCOUNT 0
+[10:16:48][INFO] SHARED MEM OCCUPIED AT ID 32790 AND SEGMENT COUNTER 0
+[10:16:48][INFO] [W0] Requesting work chunk
+[10:16:48][INFO] [W0] Waiting for answer
+[10:16:48][INFO] [W0] Primary chunk received
+[10:16:48][INFO] [W0] Processing 10 primary particles for event 1/20 part 1/1
+[10:16:48][INFO] CONNECTING TO ADDRESS ipc:///tmp/o2sim-workerinternal-21116 type push
+[10:16:48][STATE] Starting FairMQ state machine --> IDLE
+[10:16:48][INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[10:16:48][INFO] FOUND ID TO ATTACH 32790
+[10:16:48][INFO] TRYING ADDRESS 0x7fd14bfff000
+[10:16:48][INFO] SEGMENTCOUNT 1
+[10:16:48][INFO] SHARED MEM OCCUPIED AT ID 32790 AND SEGMENT COUNTER 1
+[10:16:48][INFO] [W1] Requesting work chunk
+[10:16:48][INFO] [W1] Waiting for answer
+[10:16:48][INFO] [W1] Primary chunk received
+[10:16:48][INFO] [W1] Processing 10 primary particles for event 2/20 part 1/1
+[10:16:48][INFO] CONNECTING TO ADDRESS ipc:///tmp/o2sim-workerinternal-21116 type push
+[10:16:48][STATE] Starting FairMQ state machine --> IDLE
+[10:16:48][INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[10:16:48][INFO] FOUND ID TO ATTACH 32790
+[10:16:48][INFO] TRYING ADDRESS 0x7fd14bfff000
+[10:16:48][INFO] SEGMENTCOUNT 2
+[10:16:48][INFO] SHARED MEM OCCUPIED AT ID 32790 AND SEGMENT COUNTER 2
+[10:16:48][INFO] [W2] Requesting work chunk
+[10:16:48][INFO] [W2] Waiting for answer
+[10:16:48][INFO] [W2] Primary chunk received
+[10:16:48][INFO] [W2] Processing 10 primary particles for event 3/20 part 1/1
+[10:16:48][INFO] tof::Geo: Initialization of TOF rotation parameters
+[10:16:48][INFO] CONNECTING TO ADDRESS ipc:///tmp/o2sim-workerinternal-21116 type push
+[10:16:48][STATE] Starting FairMQ state machine --> IDLE
+[10:16:48][INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[10:16:48][INFO] FOUND ID TO ATTACH 32790
+[10:16:48][INFO] TRYING ADDRESS 0x7fd14bfff000
+[10:16:48][INFO] SEGMENTCOUNT 3
+[10:16:48][INFO] SHARED MEM OCCUPIED AT ID 32790 AND SEGMENT COUNTER 3
+[10:16:48][INFO] [W3] Requesting work chunk
+[10:16:48][INFO] [W3] Waiting for answer
+[10:16:48][INFO] [W3] Primary chunk received
+[10:16:48][INFO] [W3] Processing 10 primary particles for event 4/20 part 1/1
+[10:16:48][INFO] BINDING TO ADDRESS ipc:///tmp/o2sim-workerinternal-21116 type pull
+[10:16:48][INFO] CONNECTING TO ADDRESS ipc:///tmp/o2sim-workerinternal-21116 type push
+[10:16:48][INFO] CONNECTING TO ADDRESS ipc:///tmp/o2sim-workerinternal-21116 type push
+[10:16:48][STATE] Starting FairMQ state machine --> IDLE
+[10:16:48][INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[10:16:48][INFO] FOUND ID TO ATTACH 32790
+[10:16:48][INFO] TRYING ADDRESS 0x7fd14bfff000
+[10:16:48][INFO] SEGMENTCOUNT 4
+[10:16:48][INFO] SHARED MEM OCCUPIED AT ID 32790 AND SEGMENT COUNTER 4
+[10:16:48][INFO] [W5] Requesting work chunk
+[10:16:48][INFO] [W5] Waiting for answer
+[10:16:48][STATE] Starting FairMQ state machine --> IDLE
+[10:16:48][INFO] OCCUPYING A SEGMENT IN A SHARED REGION
+[10:16:48][INFO] FOUND ID TO ATTACH 32790
+[10:16:48][INFO] TRYING ADDRESS 0x7fd14bfff000
+[10:16:48][INFO] [W5] Primary chunk received
+[10:16:48][INFO] SEGMENTCOUNT 5
+[10:16:48][INFO] SHARED MEM OCCUPIED AT ID 32790 AND SEGMENT COUNTER 5
+[10:16:48][INFO] [W4] Requesting work chunk
+[10:16:48][INFO] [W4] Waiting for answer
+[10:16:48][INFO] [W5] Processing 10 primary particles for event 5/20 part 1/1
+[10:16:48][INFO] [W4] Primary chunk received
+[10:16:48][INFO] [W4] Processing 10 primary particles for event 6/20 part 1/1
+[10:16:48][INFO] tof::Geo: Initialization of TOF rotation parameters
+[10:16:48][INFO] tof::Geo: Initialization of TOF rotation parameters
+[10:16:48][INFO] tof::Geo: Initialization of TOF rotation parameters
+[10:16:48][INFO] tof::Geo: Initialization of TOF rotation parameters
+[10:16:49][INFO] tof::Geo: Initialization of TOF rotation parameters
+[10:16:51][INFO] Stack: 407 out of 2765 stored 
+
+[10:16:51][INFO] Found nonconforming detector CAVE
+[10:16:51][INFO] This event/chunk did 104808 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 104808 steps
+[10:16:51][INFO] [W1] TIME-STAMP 2.16165	
+[10:16:51][INFO] [W1] MEM-STAMP 624.977 625.098 MB
+
+[10:16:51][INFO] [W1] Requesting work chunk
+[10:16:51][INFO] [W1] Waiting for answer
+[10:16:51][INFO] [W1] Primary chunk received
+[10:16:51][INFO] [W1] Processing 10 primary particles for event 7/20 part 1/1
+[10:16:51][INFO] Stack: 582 out of 4675 stored 
+
+[10:16:51][INFO] Found nonconforming detector CAVE
+[10:16:51][INFO] This event/chunk did 135177 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 135177 steps
+[10:16:51][INFO] [W0] TIME-STAMP 2.20882	
+[10:16:51][INFO] [W0] MEM-STAMP 624.566 624.723 MB
+
+[10:16:51][INFO] [W0] Requesting work chunk
+[10:16:51][INFO] [W0] Waiting for answer
+[10:16:51][INFO] [W0] Primary chunk received
+[10:16:51][INFO] [W0] Processing 10 primary particles for event 8/20 part 1/1
+[10:16:51][INFO] Stack: 471 out of 3910 stored 
+
+[10:16:51][INFO] Found nonconforming detector CAVE
+[10:16:51][INFO] This event/chunk did 124556 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 124556 steps
+[10:16:51][INFO] [W4] TIME-STAMP 2.19485	
+[10:16:51][INFO] [W4] MEM-STAMP 624.934 625.105 MB
+
+[10:16:51][INFO] [W4] Requesting work chunk
+[10:16:51][INFO] [W4] Waiting for answer
+[10:16:51][INFO] [W4] Primary chunk received
+[10:16:51][INFO] [W4] Processing 10 primary particles for event 9/20 part 1/1
+[10:16:51][INFO] Stack: 606 out of 4303 stored 
+
+[10:16:51][INFO] Found nonconforming detector CAVE
+[10:16:51][INFO] This event/chunk did 134649 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 134649 steps
+[10:16:51][INFO] [W2] TIME-STAMP 2.24089	
+[10:16:51][INFO] [W2] MEM-STAMP 625.086 625.262 MB
+
+[10:16:51][INFO] [W2] Requesting work chunk
+[10:16:51][INFO] [W2] Waiting for answer
+[10:16:51][INFO] [W2] Primary chunk received
+[10:16:51][INFO] [W2] Processing 10 primary particles for event 10/20 part 1/1
+[10:16:51][INFO] Stack: 601 out of 4179 stored 
+
+[10:16:51][INFO] Found nonconforming detector CAVE
+[10:16:51][INFO] This event/chunk did 164405 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 164405 steps
+[10:16:51][INFO] [W5] TIME-STAMP 2.38918	
+[10:16:51][INFO] [W5] MEM-STAMP 824.246 905.594 MB
+
+[10:16:51][INFO] [W5] Requesting work chunk
+[10:16:51][INFO] [W5] Waiting for answer
+[10:16:51][INFO] [W5] Primary chunk received
+[10:16:51][INFO] [W5] Processing 10 primary particles for event 11/20 part 1/1
+[10:16:51][INFO] Stack: 398 out of 1860 stored 
+
+[10:16:51][INFO] This event/chunk did 79089 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 79089 steps
+[10:16:51][INFO] [W1] TIME-STAMP 2.49085	
+[10:16:51][INFO] [W1] MEM-STAMP 625.875 625.898 MB
+
+[10:16:51][INFO] [W1] Requesting work chunk
+[10:16:51][INFO] [W1] Waiting for answer
+[10:16:51][INFO] [W1] Primary chunk received
+[10:16:51][INFO] [W1] Processing 10 primary particles for event 12/20 part 1/1
+[10:16:51][INFO] Stack: 562 out of 5047 stored 
+
+[10:16:51][INFO] This event/chunk did 144955 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 144955 steps
+[10:16:51][INFO] [W4] TIME-STAMP 2.7442	
+[10:16:51][INFO] [W4] MEM-STAMP 625.91 625.93 MB
+
+[10:16:51][INFO] [W4] Requesting work chunk
+[10:16:51][INFO] [W4] Waiting for answer
+[10:16:51][INFO] [W4] Primary chunk received
+[10:16:51][INFO] [W4] Processing 10 primary particles for event 13/20 part 1/1
+[10:16:51][INFO] Stack: 424 out of 6593 stored 
+
+[10:16:51][INFO] This event/chunk did 152448 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 152448 steps
+[10:16:51][INFO] [W2] TIME-STAMP 2.82105	
+[10:16:51][INFO] [W2] MEM-STAMP 625.781 625.781 MB
+
+[10:16:51][INFO] [W2] Requesting work chunk
+[10:16:51][INFO] [W2] Waiting for answer
+[10:16:51][INFO] [W2] Primary chunk received
+[10:16:51][INFO] [W2] Processing 10 primary particles for event 14/20 part 1/1
+[10:16:51][INFO] Stack: 452 out of 2744 stored 
+
+[10:16:51][INFO] This event/chunk did 77915 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 77915 steps
+[10:16:51][INFO] [W1] TIME-STAMP 2.88005	
+[10:16:51][INFO] [W1] MEM-STAMP 626.43 626.434 MB
+
+[10:16:51][INFO] [W1] Requesting work chunk
+[10:16:51][INFO] [W1] Waiting for answer
+[10:16:51][INFO] [W1] Primary chunk received
+[10:16:51][INFO] [W1] Processing 10 primary particles for event 15/20 part 1/1
+[10:16:51][INFO] Stack: 475 out of 4646 stored 
+
+[10:16:51][INFO] This event/chunk did 129661 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 129661 steps
+[10:16:51][INFO] [W0] TIME-STAMP 2.98177	
+[10:16:51][INFO] [W0] MEM-STAMP 625.586 625.59 MB
+
+[10:16:51][INFO] [W0] Requesting work chunk
+[10:16:51][INFO] [W0] Waiting for answer
+[10:16:51][INFO] [W0] Primary chunk received
+[10:16:51][INFO] [W0] Processing 10 primary particles for event 16/20 part 1/1
+[10:16:51][INFO] Stack: 731 out of 7707 stored 
+
+[10:16:51][INFO] This event/chunk did 166148 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 166148 steps
+[10:16:51][INFO] [W5] TIME-STAMP 2.98232	
+[10:16:51][INFO] [W5] MEM-STAMP 824.867 905.594 MB
+
+[10:16:51][INFO] [W5] Requesting work chunk
+[10:16:51][INFO] [W5] Waiting for answer
+[10:16:51][INFO] [W5] Primary chunk received
+[10:16:51][INFO] [W5] Processing 10 primary particles for event 17/20 part 1/1
+[10:16:51][INFO] Stack: 767 out of 6697 stored 
+
+[10:16:51][INFO] Found nonconforming detector CAVE
+[10:16:51][INFO] This event/chunk did 367883 steps
+[10:16:51][INFO] sending message with 68 parts
+[10:16:51][INFO] This event/chunk did 367883 steps
+[10:16:51][INFO] [W3] TIME-STAMP 3.01382	
+[10:16:51][INFO] [W3] MEM-STAMP 625.422 625.453 MB
+
+[10:16:51][INFO] [W3] Requesting work chunk
+[10:16:51][INFO] [W3] Waiting for answer
+[10:16:51][INFO] [W3] Primary chunk received
+[10:16:51][INFO] [W3] Processing 10 primary particles for event 18/20 part 1/1
+[10:16:52][INFO] Stack: 445 out of 4934 stored 
+
+[10:16:52][INFO] This event/chunk did 154120 steps
+[10:16:52][INFO] sending message with 68 parts
+[10:16:52][INFO] This event/chunk did 154120 steps
+[10:16:52][INFO] [W2] TIME-STAMP 3.38186	
+[10:16:52][INFO] [W2] MEM-STAMP 626.793 626.816 MB
+
+[10:16:52][INFO] [W2] Requesting work chunk
+[10:16:52][INFO] [W2] Waiting for answer
+[10:16:52][INFO] [W2] Primary chunk received
+[10:16:52][INFO] [W2] Processing 10 primary particles for event 19/20 part 1/1
+[10:16:52][INFO] Stack: 448 out of 4980 stored 
+
+[10:16:52][INFO] This event/chunk did 194492 steps
+[10:16:52][INFO] sending message with 68 parts
+[10:16:52][INFO] This event/chunk did 194492 steps
+[10:16:52][INFO] [W4] TIME-STAMP 3.50594	
+[10:16:52][INFO] [W4] MEM-STAMP 626.773 626.773 MB
+
+[10:16:52][INFO] [W4] Requesting work chunk
+[10:16:52][INFO] [W4] Waiting for answer
+[10:16:52][INFO] [W4] Primary chunk received
+[10:16:52][INFO] [W4] Processing 10 primary particles for event 20/20 part 1/1
+[10:16:52][INFO] Stack: 753 out of 7578 stored 
+
+[10:16:52][INFO] This event/chunk did 193705 steps
+[10:16:52][INFO] sending message with 68 parts
+[10:16:52][INFO] This event/chunk did 193705 steps
+[10:16:52][INFO] [W5] TIME-STAMP 3.71558	
+[10:16:52][INFO] [W5] MEM-STAMP 825.426 905.594 MB
+
+[10:16:52][INFO] [W5] Requesting work chunk
+[10:16:52][INFO] [W5] Waiting for answer
+[10:16:52][INFO] [W5] Primary chunk received
+[10:16:52][INFO] No payload; Server in state SERVING
+[10:16:52][INFO] [W5] simulation is done
+[10:16:52][INFO] FINISHING
+[10:16:52][INFO] Stack: 417 out of 5031 stored 
+
+[10:16:52][INFO] This event/chunk did 243603 steps
+[10:16:52][INFO] sending message with 68 parts
+[10:16:52][INFO] This event/chunk did 243603 steps
+[10:16:52][INFO] [W1] TIME-STAMP 3.90539	
+[10:16:52][INFO] [W1] MEM-STAMP 626.719 626.719 MB
+
+[10:16:52][INFO] [W1] Requesting work chunk
+[10:16:52][INFO] [W1] Waiting for answer
+[10:16:52][INFO] Stack: 664 out of 4047 stored 
+
+[10:16:52][INFO] This event/chunk did 209747 steps
+[10:16:52][INFO] sending message with 68 parts
+[10:16:52][INFO] This event/chunk did 209747 steps
+[10:16:52][INFO] [W0] TIME-STAMP 3.92728	
+[10:16:52][INFO] [W0] MEM-STAMP 627.453 627.453 MB
+
+[10:16:52][INFO] [W0] Requesting work chunk
+[10:16:52][INFO] [W0] Waiting for answer
+[10:16:52][INFO] Stack: 575 out of 4934 stored 
+
+[10:16:52][INFO] This event/chunk did 132732 steps
+[10:16:52][INFO] sending message with 68 parts
+[10:16:52][INFO] This event/chunk did 132732 steps
+[10:16:52][INFO] [W2] TIME-STAMP 3.94194	
+[10:16:52][INFO] [W2] MEM-STAMP 626.965 626.965 MB
+
+[10:16:52][INFO] [W2] Requesting work chunk
+[10:16:52][INFO] [W2] Waiting for answer
+[10:16:52][INFO] Stack: 605 out of 5098 stored 
+
+[10:16:52][INFO] This event/chunk did 139546 steps
+[10:16:52][INFO] sending message with 68 parts
+[10:16:52][INFO] This event/chunk did 139546 steps
+[10:16:52][INFO] [W4] TIME-STAMP 4.06991	
+[10:16:52][INFO] [W4] MEM-STAMP 626.926 626.926 MB
+
+[10:16:52][INFO] [W4] Requesting work chunk
+[10:16:52][INFO] [W4] Waiting for answer
+[10:16:53][INFO] Stack: 488 out of 4899 stored 
+
+[10:16:53][INFO] This event/chunk did 270725 steps
+[10:16:53][INFO] sending message with 68 parts
+[10:16:53][INFO] This event/chunk did 270725 steps
+[10:16:53][INFO] [W3] TIME-STAMP 4.13665	
+[10:16:53][INFO] [W3] MEM-STAMP 626.199 626.203 MB
+
+[10:16:53][INFO] [W3] Requesting work chunk
+[10:16:53][INFO] [W3] Waiting for answer
+[10:16:54][INFO] 21429 caught signal 15 from source 21116
+[10:16:54][INFO] 21405 caught signal 15 from source 21116
+[10:16:54][INFO] 21411 caught signal 15 from source 21116
+[10:16:54][INFO] 21423 caught signal 15 from source 21116
+[10:16:54][INFO] 21122 caught signal 15 from source 21116
+[10:16:54][INFO] 21417 caught signal 15 from source 21116
+[10:16:54][INFO] 21122 caught signal 15 from source 21122
